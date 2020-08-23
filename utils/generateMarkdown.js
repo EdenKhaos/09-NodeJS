@@ -17,8 +17,10 @@ function generateMarkdown(data, githubInfo) { //markdown data to be generated fo
   - [Licence](#Licence)
   - [Contributors](#Contributors)
   - [Test](#Test)
+  - [Questions](#Questions)
   - [Repository Link](#Repository)
   - [Github Info](#Github)
+  - [Badges](#Badges)
 
   ## Installation
 
@@ -40,6 +42,9 @@ function generateMarkdown(data, githubInfo) { //markdown data to be generated fo
 
   ${data.test}
 
+  ## Questions
+If you have any questions, contact ${data.username} on GitHub.
+
   ## Repository
 
   - [Project Repo](${data.repo})
@@ -50,6 +55,10 @@ function generateMarkdown(data, githubInfo) { //markdown data to be generated fo
   - ${githubInfo.name}
   - [Github Profile](${githubInfo.profile})
   - <${githubInfo.email}>
+
+  ## Badges
+![badmath](https://img.shields.io/github/repo-size/${data.username}/${data.repo})
+
 
 `;
 }

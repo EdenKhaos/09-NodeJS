@@ -2,7 +2,7 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
 const axios = require("axios");
-const generate = require('./utils'/generateMarkdown);
+const generate = require('./utils/generateMarkdown');
 
 // array of questions for user
 const questions = [
@@ -14,37 +14,37 @@ const questions = [
     {
         type: "input",
         name: "badge",
-        message: "Please provide the badges links that you want"
+        message: "Please provide the badges links that you want:"
     },
     {
         type: "input",
         name: "description",
-        message: "Please provide your project's description"
+        message: "Please provide your project's description:"
     },
     {
         type: "type",
         name: "installation",
-        message: "Please provide the installation instructions"
+        message: "Please provide the installation instructions:"
     },
     {
         type: "input",
         name: "usage",
-        message: "Please provide the project usage"
+        message: "Please provide the project usage:"
     },
     {
         type: "input",
         name: "license",
-        message: "Please provide the project licence or your badge link"
+        message: "Please provide the project licence or your badge link:"
     },
     {
         type: "input",
         name: "contributing",
-        message: "Please provide the project contributing parties"
+        message: "Please provide the project contributing parties:"
     },
     {
         type: "input",
         name: "test",
-        message: "Please provide project tests"
+        message: "Please provide project tests:"
     },
     {
         type: "input",
