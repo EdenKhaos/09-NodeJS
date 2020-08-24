@@ -1,8 +1,7 @@
 
   # **README Generator**
 
- [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
-
+  [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 
   ## Description
 
@@ -13,7 +12,7 @@
   - [Description](#Description)
   - [Installation](#Installation)
   - [Usage](#Usage)
-  - [Licence](#Licence)
+  - [License](#License)
   - [Contributors](#Contributors)
   - [Test](#Test)
   - [Questions](#Questions)
@@ -29,9 +28,9 @@
 
   Answer questions to generate README file.
 
-  ## Licence
+  ## License
 
- [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
   ## Contributors
 
@@ -42,8 +41,7 @@
   ![GitHub license](https://img.shields.io/badge/test-100%25-success)
 
   ## Questions
-
-  If you have any questions, contact Heather Cooper on GitHub.
+  If you have any questions, contact EdenKhaos on GitHub.
 
   ## Repository
 
@@ -57,4 +55,6 @@
   - <null>
 
   ## Badges
-  ![badmath](https://img.shields.io/github/repo-size/${data.username}/${data.repo})
+![badmath](https://img.shields.io/github/repo-size/EdenKhaos/https://github.com/EdenKhaos/09-NodeJS)
+
+

@@ -14,7 +14,7 @@ function generateMarkdown(data, githubInfo) { //markdown data to be generated fo
   - [Description](#Description)
   - [Installation](#Installation)
   - [Usage](#Usage)
-  - [Licence](#Licence)
+  - [License](#Licence)
   - [Contributors](#Contributors)
   - [Test](#Test)
   - [Questions](#Questions)
@@ -30,9 +30,9 @@ function generateMarkdown(data, githubInfo) { //markdown data to be generated fo
 
   ${data.usage}
 
-  ## Licence
+  ## License
 
-  ${data.licence}
+  ${data.license}
 
   ## Contributors
 
@@ -43,7 +43,7 @@ function generateMarkdown(data, githubInfo) { //markdown data to be generated fo
   ${data.test}
 
   ## Questions
-If you have any questions, contact ${data.username} on GitHub.
+  If you have any questions, contact ${data.username} on GitHub.
 
   ## Repository
 

@@ -34,7 +34,7 @@ const questions = [
     {
         type: "input",
         name: "license",
-        message: "Please provide the project licence or your badge link:"
+        message: "Please provide the project license or your badge link:"
     },
     {
         type: "input",
